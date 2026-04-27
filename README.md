@@ -25,5 +25,12 @@ Ce projet démontre une pipeline complète de traitement de données, allant d'u
 2.  **Transformation :** Application de règles de nettoyage SQL.
 3.  **Visualisation :** Interface de filtrage intelligente en temps réel.
 
+### 🔗 Liens du Projet
+* **Site Web (Live) :** [geardata-engine.vercel.app](https://geardata-engine.vercel.app)
+* **Code Source Dashboard (React) :** [github.com/bf-data-dv/geardata-optimization ](https://github.com/bf-data-dv/geardata-optimization)
+* **Pipeline Data Engineering (Java/SQL) :** [github.com/bf-data-dv/geardata-data-engineering](https://github.com/bf-data-dv/geardata-data-engineering)
+
+*Développé par [Brahim Fettih](https://github.com/bf-data-dv)*   
+
 ---
 *Développé par [Brahim Fettih](https://github.com/bf-data-dv) dans le cadre d'une optimisation de gestion de flotte automobile.*

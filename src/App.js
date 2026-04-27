@@ -72,7 +72,7 @@ const App = () => {
       <main className="max-w-6xl mx-auto px-6 py-12">
         {activeTab === 'overview' ? (
           <div className="space-y-10 animate-in fade-in duration-700">
-            {/* HERO SECTION - VALORISATION DU TRAVAIL */}
+            {/* HERO SECTION */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
               <div className="lg:col-span-8 bg-slate-900/40 p-10 rounded-[40px] border border-white/5 relative overflow-hidden shadow-2xl">
                 <div className="absolute top-0 right-0 p-8 text-slate-800 opacity-10"><Terminal size={200} /></div>
@@ -113,8 +113,10 @@ const App = () => {
                   </div>
                 </div>
                 <div className="min-h-[160px] p-6 bg-slate-950 rounded-3xl border-l-4 border-indigo-500 shadow-inner group transition-all">
+                  {/* MODIFICATION ICI POUR L'ERREUR ESLINT (LIGNE 117) */}
                   <div className="text-[10px] font-black uppercase text-slate-500 mb-3 tracking-widest italic flex items-center gap-2">
-                    <RefreshCcw size={10} className="animate-spin-slow" /> // {sqlQueries[sqlIndex].title}
+                    <RefreshCcw size={10} className="animate-spin-slow" /> 
+                    <span>{"// "}{sqlQueries[sqlIndex].title}</span>
                   </div>
                   <code className="text-indigo-300 block font-mono text-sm leading-relaxed">{sqlQueries[sqlIndex].code}</code>
                 </div>
@@ -161,7 +163,6 @@ const App = () => {
               </div>
             </div>
 
-            {/* BARRE DE TRI - ALGORITHMIC SORTING */}
             <div className="flex flex-wrap items-center gap-3 bg-[#11141D] p-3 rounded-3xl border border-white/5 shadow-2xl">
               <div className="px-4 py-2 flex items-center gap-2 text-slate-500">
                 <ArrowUpDown size={16}/>
@@ -230,3 +231,4 @@ const App = () => {
 };
 
 export default App;
+

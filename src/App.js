@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { 
-  CheckCircle, Code2, BarChart3, 
+  Code2, BarChart3, 
   ChevronLeft, ChevronRight, Car, Cpu, Zap, 
   ShieldCheck, Layers, ListFilter, Search, 
   Filter, SortAsc, SortDesc, Type,

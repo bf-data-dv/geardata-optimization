@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# 🏎️ GearData Engine | Optimization & Data Purification
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Vercel Deployment](https://img.shields.io/badge/Deployment-Live-success?style=flat-square&logo=vercel)](https://geardata-engine.vercel.app/)
+[![Stack](https://img.shields.io/badge/Stack-React_|_Tailwind_|_SQL-blue?style=flat-square)](https://github.com/bf-data-dv/geardata-optimization)
 
-## Available Scripts
+### 🎯 Le Projet
+Ce projet démontre une pipeline complète de traitement de données, allant d'un dataset automobile brut et corrompu vers une interface utilisateur haute performance. L'objectif était de résoudre les problèmes de latence et d'incohérence des données (doublons, formats erronés).
 
-In the project directory, you can run:
+### 🚀 Performance & Optimisation
+* **Latence :** Réduite à ~0ms grâce au pré-traitement des données.
+* **Architecture :** Passage d'un flux de données non structuré à une structure JSON optimisée.
+* **Nettoyage (Data Cleaning) :**
+    * Suppression des entrées dupliquées via scripts SQL.
+    * Normalisation des noms de marques et modèles.
+    * Correction des types de données (prix, années).
 
-### `npm start`
+### 🛠️ Stack Technique
+* **Frontend :** React.js avec composants dynamiques.
+* **Styling :** Tailwind CSS pour une interface moderne et responsive.
+* **Data Pipeline :** SQL pour l'extraction et la purification, JSON pour le stockage final.
+* **Hosting :** Vercel (CI/CD lié au repo GitHub).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📊 Aperçu du Workflow
+1.  **Ingestion :** Analyse du dataset brut.
+2.  **Transformation :** Application de règles de nettoyage SQL.
+3.  **Visualisation :** Interface de filtrage intelligente en temps réel.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Développé par [Brahim Fettih](https://github.com/bf-data-dv) dans le cadre d'une optimisation de gestion de flotte automobile.*

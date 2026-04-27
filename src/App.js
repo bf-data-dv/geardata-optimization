@@ -194,7 +194,7 @@ const App = () => {
                         <div className="text-[10px] text-slate-500 font-bold uppercase mt-2 italic tracking-widest opacity-60">Unités Fixes</div>
                       </div>
                     </div>
-                    <h4 className="text-2xl font-black text-white uppercase mb-6 tracking-tight group-hover:text-indigo-300 transition-colors">{nom}</h4>
+                    <h4 className="text-2xl font-black text-white uppercase mb-6 tracking-tight group-hover:text-indigo-300 transition-colors break-words">{nom}</h4>
                     <div className="space-y-3">
                       <div className="flex justify-between text-[10px] font-black uppercase text-slate-400 tracking-widest italic">
                         Statistical Impact <span className="text-indigo-400">{perc}%</span>

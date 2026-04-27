@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { 
-  Database, CheckCircle, Code2, BarChart3, 
+  CheckCircle, Code2, BarChart3, 
   ChevronLeft, ChevronRight, Car, Cpu, Zap, 
   ShieldCheck, Layers, ListFilter, Search, 
   Filter, SortAsc, SortDesc, Type,
@@ -120,7 +120,7 @@ const App = () => {
                 </div>
               </div>
 
-              {/* STATS / PROCESS */}
+              {/* STATS PROCESS */}
               <div className="bg-[#11141D] p-8 rounded-[40px] border border-white/5 shadow-xl">
                 <h3 className="text-xl font-bold text-white uppercase italic mb-8 flex items-center gap-3">
                   <div className="p-3 bg-blue-500/10 rounded-2xl text-blue-400"><BarChart3 size={24}/></div>
